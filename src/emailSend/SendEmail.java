@@ -27,7 +27,7 @@ public class SendEmail {
 
 			String host= "96.125.180.6";  //mail.epiclanka.net
 			String user= "kreshan_r@epiclanka.net";
-			String password= "Ep1klanka";
+			String password= "";
 			String from= "kreshan_r@epiclanka.net";
 			int port = 25;
 			String to = "kreshan882@gmail.com";
