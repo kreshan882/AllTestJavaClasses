@@ -1,4 +1,4 @@
-package alltestclasses;
+package webservice;
 
 import java.io.BufferedReader;
 import java.io.DataOutputStream;
@@ -20,7 +20,7 @@ public class WebServiceClient {
 	DataOutputStream dataout 	= null;
 	String response                 = null;
 	try{
-
+                //ip/projectName/
                 url = new URL("http://127.0.0.1:8080/WebApplication1/webresources/generic/checkStatus");
                 String input = "0000000014|123456";
 		
